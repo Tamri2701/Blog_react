@@ -1,0 +1,142 @@
+.singlePage {
+  padding: 50px 0;
+  background: #e5f2fa;
+  display: flex;
+}
+
+.singlePage .right {
+  margin-top: 30px;
+}
+
+.singlePage .left {
+  margin-left: 200px;
+}
+
+.singlePage img {
+  width: 80%;
+  height: 80%;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+}
+
+.singlePage h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.singlePage h3 {
+  text-align: center;
+}
+
+.singlePage p {
+  margin: 20px 0;
+  font-size: 18px;
+  line-height: 2;
+  text-transform: capitalize;
+  white-space: pre-line;
+}
+
+.singlePage .buttons {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.singlePage .button {
+  margin-left: 20px;
+  border: none;
+}
+
+.singlePage .button:nth-child(1) {
+  background: #10ac84;
+}
+
+.singlePage .button:nth-child(1):hover::after {
+  opacity: 1;
+  /* Show on hover */
+  content: "  Like";
+  /* Text on hover */
+}
+
+.singlePage .button:nth-child(2) {
+  background: #ee5253;
+}
+
+.singlePage .button:nth-child(2):hover::after {
+  opacity: 1;
+  /* Show on hover */
+  content: "  Subscribe";
+}
+
+.comments-container {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.comments-container h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.comments-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comments-container li {
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f5f5f5;
+}
+
+.comments-container form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-container input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comments-container button[type="submit"] {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comments-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.add-comment-button {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.add-comment-button:hover {
+  background-color: #0056b3;
+}
+
+.add-comment-button svg {
+  margin-right: 5px;
+}

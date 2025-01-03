@@ -1,0 +1,41 @@
+.backgroundStyle {
+  background-image: url('../../Assets/images/contact.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.containerStyle {
+  background-color: rgba(255, 255, 255, 0.146);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 600px;
+  text-align: center;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  align-content: center;
+}
+
+.inputStyle {
+
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 80%;
+  font-size: 16px;
+}
+
+.contact-info {
+  font-size: 16px;
+}
+
+.b1 {
+  background: #212121;
+  border: 1px solid;
+  border-color: #212121;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  height: 38px;
+  width: 350px;
+  line-height: 1;
+}
